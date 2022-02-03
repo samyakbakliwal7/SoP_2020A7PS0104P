@@ -16,10 +16,10 @@
             android:id="@+id/toggle_wifi_on_off"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="25dp"
             android:layout_alignTop="@+id/connectionStatus"
+            android:layout_marginTop="25dp"
             android:text="Wi-Fi "
-            android:textColorHighlight="@android:color/black"/>
+            android:textColorHighlight="@android:color/black" />
 
         <Button
             android:id="@+id/discover_peer"
@@ -46,9 +46,9 @@
             tools:listitem="@android:layout/simple_selectable_list_item" />
 
         <TextView
+            android:id="@+id/read_message_text_view"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/read_message_text_view"
             android:layout_below="@id/list_view_peers_list"
             android:layout_marginStart="10dp"
             android:layout_marginLeft="10dp"
@@ -57,13 +57,13 @@
             android:text="MESSAGE" />
 
         <EditText
+            android:id="@+id/write_message_edit_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentBottom="true"
-            android:inputType="textPersonName"
             android:layout_toStartOf="@+id/send_button"
-            android:id="@+id/write_message_edit_text"/>
+            android:inputType="textPersonName" />
 
         <Button
             android:id="@+id/send_button"
@@ -71,7 +71,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:text="SEND"/>
+            android:text="SEND" />
 
 
         <TextView
